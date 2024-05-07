@@ -22,7 +22,7 @@
 // }
 // console.log(password)
 
-// task 3-c
+// task 3-a
 
 // var cap = "QWERTYUIOPASDFGHJKLZXCVBNM";
 // var small ="qwertyuiopasdfghjklzxcvbnm";
@@ -69,3 +69,26 @@
 //   const num = "1234567890";
 //   const sims = "!@#$%^&*()_";
 //   passwordGenerator(cap, small, num, sims);
+
+// task 3-c (more correect tareeqa....!)
+
+// var cap = "QWERTYUIOPASDFGHJKLZXCVBNM";
+// var small ="qwertyuiopasdfghjklzxcvbnm";
+// var num = "1234567890";
+// var sims = "!@#$%^&*()_"; 
+// var password = "";
+// for(var i = 0; i < 12; i++){
+//  if(i < 3){
+//     password += cap[Math.floor(Math.random() * cap.length)];
+//  }
+// else if(i >= 3 && i < 6){
+//     password += small[Math.floor(Math.random() * small.length)];
+//  }
+// else if(i >= 6 && i < 9){
+//     password += num[Math.floor(Math.random() * num.length)];
+//  }
+// else{
+//     password += sims[Math.floor(Math.random() * sims.length)];  
+//  }
+// }
+// console.log(password)
